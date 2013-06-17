@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+<CSP name="custinfo.csp" application="/csp/user/" default="1"><![CDATA[
+<script language="Cashe" method="OnPreHTTP" arguments =""
+	returntype="%Boolean">
+	set cust = ##class(Lipa.Customer).%OpenId(%request.Get("id"))
+	if ('$isObject(cust)) {
+		Set %responce.Redirect="index,csp"
+		}
+
+
+	Set %response.Redirect="redirect.csp"
+	Quit 1
+	
+	
+	
+	
+	
+	
+	
+</script>
+
+<html>
+<head>
+
+<!-- Put your page Title here -->
+<title>	INFO </title>
+
+</head>
+Имя покупателя: #(cust.Name)# <br>
+Возраст: #(cust.Age)# <br>
+Кол-во заказов: №(cust.Orders.Count())# <br>
+
+<body>
+
+		#(%request.Get("id"))#
+</body>
+</html>
+]]></CSP>
+</Export>

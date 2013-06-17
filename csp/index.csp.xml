@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+<CSP name="index.CSP" application="/csp/user/" default="1"><![CDATA[
+<html>
+<head>
+<title>	LIPA </title>
+</head>
+<body>
+<h1>АО Липа</h1>
+    <form method="get" action = "customer.csp">
+	Введите email: <input type="text" name = "email">
+	<input type="submit" value ="Готово!">
+	</form>
+<hr>
+	сейчас: #($zdt($h,4))#
+</body>
+</html>
+]]></CSP>
+</Export>

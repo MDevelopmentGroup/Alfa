@@ -6,7 +6,7 @@
 <title>	LIPA </title>
 </head>
 <body>
-<h1>АО Липа</h1>
+<h1>ОАО Липа</h1>
     <form method="get" action = "customer.csp">
 	Введите email: <input type="text" name = "email">
 	<input type="submit" value ="Готово!">

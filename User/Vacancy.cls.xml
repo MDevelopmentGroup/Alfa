@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+<Class name="User.Vacancy">
+<Description>
+Класс хранящий вакансии</Description>
+<Super>%Persistent</Super>
+<TimeCreated>62997,61772.452596</TimeCreated>
+
+<Property name="Location">
+<Description>
+Место положение работы
+Можно Google/Yandex maps</Description>
+<Type>%String</Type>
+</Property>
+
+<Property name="EduLivel">
+<Description>
+Уровень образования</Description>
+<Type>%String</Type>
+</Property>
+</Class>
+</Export>

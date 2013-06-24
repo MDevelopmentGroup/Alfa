@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+<Class name="User.Finder">
+<Description>
+Искатель работы :)
+</Description>
+<Super>%Persistent</Super>
+<TimeCreated>62997,63470.218964</TimeCreated>
+
+<Property name="FIO">
+<Type>%String</Type>
+</Property>
+
+<Property name="Adress">
+<Type>%String</Type>
+</Property>
+</Class>
+</Export>

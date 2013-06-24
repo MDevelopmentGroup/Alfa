@@ -14,5 +14,9 @@
 <Property name="Adress">
 <Type>%String</Type>
 </Property>
+
+<Property name="Skills">
+<Type>%String</Type>
+</Property>
 </Class>
 </Export>

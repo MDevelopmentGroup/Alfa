@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-<CSP name="Second.CSP" application="/csp/testpage/" default="1"><![CDATA[
+<CSP name="Second.CSP" application="/csp/test777/" default="1"><![CDATA[
 <html>
 <head>
 
@@ -13,7 +13,8 @@
 
 		<!-- Put your page code here -->
 		My page body
-
+       <!-- Added by CTP-->
+       <h1> Test message </h1>
 		<!-- Added by Salavat-->
 </body>
 </html>
